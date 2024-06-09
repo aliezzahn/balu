@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "balu"
+version = "0.1.0"
+description = ""
+authors = ["aliezzahn <alireza.h@laqira.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
