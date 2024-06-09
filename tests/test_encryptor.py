@@ -1,4 +1,4 @@
-from balu.encryptor import ComplexEncryptor
+from balue.encryptor import ComplexEncryptor
 
 key = "super_secret_key"
 encryptor = ComplexEncryptor(key)

@@ -1,6 +1,6 @@
-# balu
+# balue
 
-Balu is a Python package that implements a multi-layered encryption algorithm for educational purposes. It combines substitution, permutation, and XOR encryption techniques to provide a basic encryption and decryption functionality.
+Balue is a Python package that implements a multi-layered encryption algorithm for educational purposes. It combines substitution, permutation, and XOR encryption techniques to provide a basic encryption and decryption functionality.
 
 ## Features
 
@@ -21,8 +21,8 @@ Balu is a Python package that implements a multi-layered encryption algorithm fo
 2. **Clone the repository**:
 
     ```bash
-    git clone git@github.com:aliezzahn/balu.git
-    cd balu
+    git clone git@github.com:aliezzahn/balue.git
+    cd balue
     ```
 
 3. **Install the dependencies**:
@@ -36,8 +36,8 @@ Balu is a Python package that implements a multi-layered encryption algorithm fo
 1. **Clone the repository**:
 
     ```bash
-    git clone git@github.com:aliezzahn/balu.git
-    cd balu
+    git clone git@github.com:aliezzahn/balue.git
+    cd balue
     ```
 
 2. **Install the dependencies** using `pip`:
@@ -57,7 +57,7 @@ Here's how you can use the `ComplexEncryptor` class to encrypt and decrypt a mes
 3. **Decrypt the ciphertext** to get back the original message.
 
 ```python
-from balu.encryptor import ComplexEncryptor
+from balue.encryptor import ComplexEncryptor
 
 # Initialize the encryptor with a secret key
 key = "super_secret_key"
@@ -86,10 +86,10 @@ python tests/test_encryptor.py
 ## Project Structure
 
 ```
-balu/
+balue/
 │
 ├── README.md
-├── balu/
+├── balue/
 │   ├── __init__.py
 │   └── encryptor.py
 └── tests/

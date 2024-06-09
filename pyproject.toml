@@ -1,14 +1,12 @@
 [tool.poetry]
-name = "balu"
+name = "balue"
 version = "0.1.0"
 description = "Explore the intricacies of cryptographic techniques with Balu, a Python library implementing a sophisticated multi-layer encryption system. Balu combines substitution, permutation, and XOR ciphers to offer a customizable and educational approach to data security."
 authors = ["aliezzahn <alireza.h@laqira.io>"]
 readme = "README.md"
 license = "Apache-2.0"
-
-[tool.poetry.keywords]
 keywords = [
-    "Balu", "ComplexEncryptor", "Encryption", "Decryption", "Substitution Cipher",
+    "Balue", "ComplexEncryptor", "Encryption", "Decryption", "Substitution Cipher",
     "Permutation Cipher", "XOR Cipher", "Cryptography", "Encryption Algorithm",
     "Data Security", "Python Encryption", "Multi-layer Encryption", "Secure Communication",
     "Python Cryptography", "Hashing", "SHA-256", "Byte Shuffling", "Cipher Techniques",
