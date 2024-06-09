@@ -1,7 +1,6 @@
-```markdown
-# ComplexEncryptor
+# balu
 
-ComplexEncryptor is a Python package that implements a multi-layered encryption algorithm for educational purposes. It combines substitution, permutation, and XOR encryption techniques to provide a basic encryption and decryption functionality.
+Balu is a Python package that implements a multi-layered encryption algorithm for educational purposes. It combines substitution, permutation, and XOR encryption techniques to provide a basic encryption and decryption functionality.
 
 ## Features
 
@@ -22,8 +21,8 @@ ComplexEncryptor is a Python package that implements a multi-layered encryption 
 2. **Clone the repository**:
 
     ```bash
-    git clone <repository-url>
-    cd complex_encryptor
+    git clone git@github.com:aliezzahn/balu.git
+    cd balu
     ```
 
 3. **Install the dependencies**:
@@ -37,8 +36,8 @@ ComplexEncryptor is a Python package that implements a multi-layered encryption 
 1. **Clone the repository**:
 
     ```bash
-    git clone <repository-url>
-    cd complex_encryptor
+    git clone git@github.com:aliezzahn/balu.git
+    cd balu
     ```
 
 2. **Install the dependencies** using `pip`:
@@ -58,7 +57,7 @@ Here's how you can use the `ComplexEncryptor` class to encrypt and decrypt a mes
 3. **Decrypt the ciphertext** to get back the original message.
 
 ```python
-from encryptor import ComplexEncryptor
+from balu.encryptor import ComplexEncryptor
 
 # Initialize the encryptor with a secret key
 key = "super_secret_key"
@@ -81,18 +80,21 @@ print("Decrypted:", decrypted)
 To test the encryption and decryption process, you can run the provided test script.
 
 ```bash
-python test_encryptor.py
+python tests/test_encryptor.py
 ```
 
 ## Project Structure
 
 ```
-complex_encryptor/
+balu/
 │
 ├── README.md
-├── encryptor.py
-├── test_encryptor.py
-└── pyproject.toml
+├── balu/
+│   ├── __init__.py
+│   └── encryptor.py
+└── tests/
+    └── test_encryptor.py
+├── pyproject.toml
 ```
 
 ## Security Considerations
@@ -110,10 +112,3 @@ Contributions are welcome! Please open an issue or submit a pull request on GitH
 ## Acknowledgments
 
 - Inspired by classical encryption techniques and the need to understand basic cryptographic principles.
-```
-
-### Notes:
-- Replace `<repository-url>` with the actual URL of your repository.
-- Ensure the `LICENSE` file exists if you mention it in the README.
-
-This README file should provide a clear and comprehensive guide to using the `ComplexEncryptor` package, including installation, usage examples, and important notes on security.

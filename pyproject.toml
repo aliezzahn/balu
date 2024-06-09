@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "balu"
 version = "0.1.0"
-description = ""
+description = "encryption "
 authors = ["aliezzahn <alireza.h@laqira.io>"]
 readme = "README.md"
 
