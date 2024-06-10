@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "balue"
-version = "0.1.0"
+version = "0.1.1"
 description = "Explore the intricacies of cryptographic techniques with Balu, a Python library implementing a sophisticated multi-layer encryption system. Balu combines substitution, permutation, and XOR ciphers to offer a customizable and educational approach to data security."
 authors = ["aliezzahn <alireza.h@laqira.io>"]
 readme = "README.md"

@@ -105,6 +105,13 @@ This package is intended for educational purposes and should not be used for sec
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## Contributors
+We'd like to thank the following contributors:
+
+- [aliezzahn](https://github.com/aliezzahn)
+- [SaeedHotshotBj](https://github.com/SaeedHotshotBj)
+
+
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.
